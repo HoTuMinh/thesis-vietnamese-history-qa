@@ -15,12 +15,12 @@ How do we **detect** and **mitigate** hallucinations in Vietnamese-language LLMs
 **Publication:** SOICT 2025 (accepted) — co-author
 
 ### Part 2: Hallucination Detection
-[02-hallucination/01-detection/](./02-hallucination/01-detection/) — FELM-style segment-level detector using FAISS + multilingual embeddings + Groq Llama-3.3-70B judge.
+FELM-style segment-level detector using FAISS + multilingual embeddings + Groq Llama-3.3-70B judge.
 
 **Performance:** [Will be filled after evaluate.py completes]
 
 ### Part 3: Hallucination Mitigation
-[02-hallucination/02-mitigation/](./02-hallucination/02-mitigation/) — DPO fine-tuning targeting 3 behaviors:
+DPO fine-tuning targeting 3 behaviors:
 1. Grounded answering (594 pairs)
 2. False-premise rejection (62 pairs)
 3. Position robustness via augmentation
@@ -28,7 +28,7 @@ How do we **detect** and **mitigate** hallucinations in Vietnamese-language LLMs
 **Status:** Data pipeline ready (524 train + 132 eval), training pending stable compute.
 
 ### Part 4: Transformer From Scratch
-[03-transformer-nano/](./03-transformer-nano/) — nanoGPT modified for Vietnamese (word-level tokenizer, SGK Lich su dataset).
+nanoGPT modified for Vietnamese (word-level tokenizer, SGK Lich su dataset).
 
 **Purpose:** Demonstrate fundamentals understanding (attention mechanism, position encoding, decoder block).
 
