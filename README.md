@@ -10,7 +10,7 @@ How do we **detect** and **mitigate** hallucinations in Vietnamese-language LLMs
 ## Approach
 
 ### Part 1: Benchmark
-[01-slm-benchmark/](./01-slm-benchmark/) — Reformat Vietnamese History MCQ → essay format, evaluate Llama-3-8B / Phi-3 / Gemma-7B with multi-prompting strategies.
+Reformat Vietnamese History MCQ → essay format, evaluate Llama-3-8B / Phi-3 / Gemma-7B with multi-prompting strategies.
 
 **Publication:** SOICT 2025 (accepted) — co-author
 
