@@ -95,7 +95,7 @@ Requires `GROQ_API_KEY` in `.env`.
 
 ## Scope & Limitations
 
-**What was done (within ~2.5h):**
+**What was done:**
 - FAISS retrieval over OCR'd Vietnamese history textbook (99k chars, 272 chunks)
 - Groq-hosted LLM judge with FELM taxonomy + few-shot prompt
 - Segment-level and statement-level evaluation on 100 annotated samples
